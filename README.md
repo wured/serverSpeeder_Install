@@ -10,12 +10,12 @@ Usage:
 ```
 Install
 ```
-wget --no-check-certificate -O appex.sh https://raw.githubusercontent.com/0oVicero0/serverSpeeder_Install/master/appex.sh && chmod +x appex.sh && bash appex.sh install
+wget --no-check-certificate -O appex.sh https://raw.githubusercontent.com/wured/serverSpeeder_Install/master/appex.sh && chmod +x appex.sh && bash appex.sh install
 
 ```    
 Uninstall    
 ```
-wget --no-check-certificate -O appex.sh https://raw.githubusercontent.com/0oVicero0/serverSpeeder_Install/master/appex.sh && chmod +x appex.sh && bash appex.sh uninstall
+wget --no-check-certificate -O appex.sh https://raw.githubusercontent.com/wured/serverSpeeder_Install/master/appex.sh && chmod +x appex.sh && bash appex.sh uninstall
 
 ```  
 -----------------------------     
@@ -30,12 +30,12 @@ bash /appex/bin/serverSpeeder.sh renewLic
 -----------------------------
 具体用哪个加速模块检索这个文件,选择最合适的.         
 ```
-https://github.com/0oVicero0/serverSpeeder_kernel/blob/master/serverSpeeder.txt
+https://github.com/wured/serverSpeeder_kernel/blob/master/serverSpeeder.txt
 ```
 改加速模块文件名字.       
 下载链接如下(变量$1,$2,$3,$4,$5,$6)   
 ```
-https://raw.githubusercontent.com/0oVicero0/serverSpeeder_kernel/master/$1/$2/$3/$4/$5/$6
+https://raw.githubusercontent.com/wured/serverSpeeder_kernel/master/$1/$2/$3/$4/$5/$6
 ```
 下载后的加速模块文件名改成这样  ```acce-$5-[$1_$2_$3]```            
 如果不改名字,可能会触发某个BUG(Debian下会触发,别的系统没用过,不清楚.)           
